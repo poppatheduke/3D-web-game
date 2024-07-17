@@ -13,10 +13,10 @@ Node.js (>=14.0.0)
 npm (>=6.0.0)
 Steps
 Clone the repository:
-
+<code>
 git clone https://github.com/poppatheduke/3D-web-game.git
 Navigate to the project directory:
-
+</code>
 cd marble-race-game
 Install the dependencies:
 
