@@ -1,4 +1,4 @@
-Marble Race Game
+<h1>Marble Race Game</h1>
 Welcome to the Marble Race Game repository! This project is an interactive 3D marble race game built using Three.js and React Three Fiber. Navigate through various obstacles and reach the fini line in this dynamic and visually engaging game.
 
 Features
@@ -7,24 +7,37 @@ Customizable Levels: Easily configure the number of obstacles and their types to
 Interactive Graphics: Utilizes Three.js for rendering 3D graphics and React Three Fiber for integrating 3D objects in React.
 Physics Simulation: Powered by @react-three/rapier for realistic physics interactions.
 Responsive Design: Ensures a smooth experience across different devices and screen sizes.
+
 Installation
+
 Prerequisites
+
 Node.js (>=14.0.0)
+
 npm (>=6.0.0)
+
 Steps
 Clone the repository:
+
 <code>
 git clone https://github.com/poppatheduke/3D-web-game.git
 Navigate to the project directory:
-</code>
 cd marble-race-game
+</code>
+
 Install the dependencies:
 
+<code>
 npm install
+</code>
+
 Usage
 Start the development server:
 
+<code>
 npm start
+</code>
+
 Open your browser and navigate to http://localhost:3000 to see the game in action.
 
 Documentation
@@ -32,6 +45,8 @@ Project Structure
 java
 
 marble-race-game/
+<div>
+  <code>
 ├── public/
 │ ├── hamburger.glb
 │ ├── bebas-neue-v9-latin-regular.woff
@@ -49,18 +64,27 @@ marble-race-game/
 │ └── styles.css
 ├── package.json
 └── README.md
+    </code>
+  </div>
 Components
+
 BlockStart: Displays the starting block with a floating "Marble Race" text.
+
 BlockEnd: Displays the finiing block with a "FINI" text and a hamburger model.
-BlockSpinner: A spinning obstacle that rotates around the Y-axis.
+
+BlockSpinner: A spinning obstacle that rotates around the Y-axis
+
 BlockLimbo: An obstacle that moves up and down along the Y-axis.
+
 BlockAxe: A swinging axe obstacle that moves back and forth along the X-axis.
+
 Level: Combines all the blocks to create a complete level with configurable length and obstacle types.
+
+
 Customization
 You can customize the game by modifying the Level component's props:
 
-jsx
-
+<code>
 export function Level({
 count = 5, // Number of obstacles
 types = [BlockSpinner, BlockAxe, BlockLimbo], // Types of obstacles
@@ -68,11 +92,16 @@ seed = 0, // Seed for randomization
 }) {
 // Level logic
 }
+</code>
+
 Adding New Obstacles
 To add a new obstacle:
 
 Create a new component in the components directory.
+
 Implement the obstacle's behavior using Three.js and React Three Fiber.
+
 Add the new component to the types array in the Level component.
+
 Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
