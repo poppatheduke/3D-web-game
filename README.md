@@ -69,7 +69,7 @@ marble-race-game/
 ```
 ## Components
 
-<h5>BlockStart:</h4> Displays the starting block with a floating "Marble Race" text.
+<h4>BlockStart:</h4> Displays the starting block with a floating "Marble Race" text.
 
 <h4>BlockEnd:</h4> Displays the finiing block with a "FINI" text and a hamburger model.
 
