@@ -5,15 +5,15 @@
 Welcome to the Marble Race Game repository! This project is an interactive 3D marble race game built using Three.js and React Three Fiber. Navigate through various obstacles and reach the fini line in this dynamic and visually engaging game.
 
 ## Features
-<h3>Dynamic Obstacles:</h3> Includes a variety of moving obstacles such as spinners, limbo bars, and swinging axes.
+<h4>Dynamic Obstacles:</h4> Includes a variety of moving obstacles such as spinners, limbo bars, and swinging axes.
 
-<h3>Customizable Levels:</h3> Easily configure the number of obstacles and their types to create different levels.
+<h4>Customizable Levels:</h4> Easily configure the number of obstacles and their types to create different levels.
 
-<h3>Interactive Graphics:</h3> Utilizes Three.js for rendering 3D graphics and React Three Fiber for integrating 3D objects in React.
+<h4>Interactive Graphics:</h4> Utilizes Three.js for rendering 3D graphics and React Three Fiber for integrating 3D objects in React.
 
-<h3>Physics Simulation:</h3> Powered by @react-three/rapier for realistic physics interactions.
+<h4>Physics Simulation:</h4> Powered by @react-three/rapier for realistic physics interactions.
 
-<h3>Responsive Design:</h3> Ensures a smooth experience across different devices and screen sizes.
+<h4>Responsive Design:</h4> Ensures a smooth experience across different devices and screen sizes.
 
 ## Installation
 
@@ -69,17 +69,17 @@ marble-race-game/
 ```
 ## Components
 
-<h3>BlockStart:</h3> Displays the starting block with a floating "Marble Race" text.
+<h5>BlockStart:</h4> Displays the starting block with a floating "Marble Race" text.
 
-<h3>BlockEnd:</h3> Displays the finiing block with a "FINI" text and a hamburger model.
+<h4>BlockEnd:</h4> Displays the finiing block with a "FINI" text and a hamburger model.
 
-<h3>BlockSpinner:</h3> A spinning obstacle that rotates around the Y-axis
+<h4>BlockSpinner:</h4> A spinning obstacle that rotates around the Y-axis
 
-<h3>BlockLimbo:</h3> An obstacle that moves up and down along the Y-axis.
+<h4>BlockLimbo:</h4> An obstacle that moves up and down along the Y-axis.
 
-<h3>BlockAxe:</h3> A swinging axe obstacle that moves back and forth along the X-axis.
+<h4>BlockAxe:</h4> A swinging axe obstacle that moves back and forth along the X-axis.
 
-<h3>Level:</h3> Combines all the blocks to create a complete level with configurable length and obstacle types.
+<h4>Level:</h4> Combines all the blocks to create a complete level with configurable length and obstacle types.
 
 
 ## Customization
